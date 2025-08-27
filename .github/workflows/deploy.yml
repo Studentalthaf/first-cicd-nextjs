@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd /var/www/reponame
+            cd /usr/src/www/first-cicd-nextjs
             git pull origin main
             npm install --legacy-peer-deps
             npm run build
