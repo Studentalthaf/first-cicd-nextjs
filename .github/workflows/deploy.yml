@@ -3,7 +3,7 @@ name: Deploy Next.js ke VPS
 on:
   push:
     branches:
-      - main   # jalankan otomatis kalau ada push ke branch main
+      - main   
 
 jobs:
   deploy:
